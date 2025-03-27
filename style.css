@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #2d8f72;
+  color: #fff;
+  text-align: center;
+  padding: 50px 0;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+header p {
+  font-size: 1.2em;
+  margin: 20px 0;
+}
+
+.cta-btn {
+  padding: 10px 20px;
+  background-color: #f4a261;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#problema-solucao,
+#como-funciona,
+#beneficios {
+  padding: 40px 0;
+  text-align: center;
+}
+
+#problema-solucao img,
+#como-funciona img {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 20px;
+}
+
+#cadastro {
+  background-color: #2d8f72;
+  padding: 40px 0;
+  text-align: center;
+  color: #fff;
+}
+
+form input {
+  padding: 10px;
+  margin: 10px 0;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+form button {
+  padding: 10px 20px;
+  background-color: #f4a261;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.9em;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  #problema-solucao img,
+  #como-funciona img {
+    max-width: 100%;
+  }
+}
